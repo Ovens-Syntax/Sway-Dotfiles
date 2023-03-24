@@ -1,0 +1,9 @@
+#!/bin/bash
+
+wallpaperdir='/home/oven/Pictures/Ovens-Wallpaper-Repository/walls/'
+
+randwall=$(ls $wallpaperdir | shuf -n 1)
+
+echo $randwall 
+
+swww img "$wallpaperdir$randwall"

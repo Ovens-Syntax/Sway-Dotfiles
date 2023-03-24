@@ -1,0 +1,5 @@
+#!/bin/bash
+while true; do
+	img2sixel -w 475 /home/oven/Music/.covers/active-cover
+	sleep 1
+done
